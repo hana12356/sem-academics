@@ -35,3 +35,17 @@ printf("%5d",t[i][j]);
 printf("\n");
     }
 }
+
+
+output:
+enter n of vertices:4
+enter the adjacent matrix:
+0 5 8 9
+99 0 3 4
+99 99 0 1
+99 99 99 0
+the transitive clouser matrix is:
+1 1 1 1
+1 1 1 1
+1 1 1 1
+1 1 1 1
