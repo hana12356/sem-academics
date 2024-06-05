@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+\begin{document}
+
+\begin{figure}[h]
+  \centering
+  \begin{subfigure}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{vtu.jpg}
+    \caption{image1}
+    \label{fig:image1}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{vtu.jpg}
+    \caption{image2}
+    \label{fig:image2}
+  \end{subfigure}
+  \caption{side-by-side images}
+  \label{fig:side_by_side}
+\end{figure}
+
+\end{document}
