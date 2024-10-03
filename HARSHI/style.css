@@ -1,0 +1,22 @@
+*{
+    background-color: none
+    ;
+    color: brown;
+    text-align: center;
+    text-decoration: dashed;
+    text-decoration-line: underline;
+    text-shadow: 6px 7px 6px black;
+}
+body{
+    background-image: url(dog.jpg);
+}
+
+div{
+    height: 10px;
+    width: 10px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid ;
+}
